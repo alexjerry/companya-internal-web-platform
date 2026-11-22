@@ -81,7 +81,7 @@ terraform validate
 Generate an execution plan:
 
 ```powershell
-terraform plan -out=tfplan
+terraform plan -out=tfplan.tfplan
 ```
 
 Review the proposed changes carefully before approving deployment.
@@ -100,7 +100,7 @@ Pay particular attention to:
 Only after the plan has been reviewed and approved:
 
 ```powershell
-terraform apply tfplan
+terraform apply tfplan.tfplan
 ```
 
 ## 8. Verify Deployment
