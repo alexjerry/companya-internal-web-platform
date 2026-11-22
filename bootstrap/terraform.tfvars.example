@@ -1,0 +1,4 @@
+location              = "East US"
+resource_group_name   = "rg-companya-terraform-state-prod"
+storage_account_name  = "tfstatecompanya2026"
+container_name        = "tfstate"

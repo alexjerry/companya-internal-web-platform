@@ -1,0 +1,18 @@
+
+# Azure subscription where the platform will be deployed.
+subscription_id = "00000000-0000-0000-0000-000000000000"
+
+# Globally unique Azure resource names.
+key_vault_name     = "kv-companya-prod-example"
+storage_account_name = "stcompanya2026xyz"
+
+# Monitoring resources.
+log_analytics_workspace_name = "log-companya-prod-example"
+application_insights_name    = "appi-companya-prod-example"
+log_analytics_retention_days = 30
+
+# Existing COMPANYA Entra security groups.
+# Replace placeholders with actual group object IDs before deployment.
+
+company_readers_group_object_id = "00000000-0000-0000-0000-000000000001"
+company_writers_group_object_id = "00000000-0000-0000-0000-000000000002"
