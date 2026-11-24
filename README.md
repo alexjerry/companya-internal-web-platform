@@ -1,4 +1,4 @@
-
+I created the Project using Terraform
 # Enterprise Internal-Facing Web Application Platform
 
 ## 1. Project Overview
